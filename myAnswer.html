@@ -1,0 +1,63 @@
+<html>
+<head> 
+</head>
+<body>
+
+<input id="input" type="text">
+<button id="button">Double</button> 
+
+
+<form>
+<p> Number1: <input type="text" id="number1"> </p>
+<br>
+<p> Number2: <input type="text" id="number2"> </p>
+<br>
+<p> Number3: </p><input type="text" id="number3"> </p>
+<br>
+<p> Number4: </p><input type="text" id="number4"> </p>
+<br>
+<p> Division value: </p><input type="text" id="number5"> </p>
+<br>
+<button id="check">Check</button> 
+</form>	
+	
+<form>
+<p> Number1: <input type="text" id="number1"> </p>
+<br>
+<p> Number2: <input type="text" id="number2"> </p>
+<br>
+<p> Number3: </p><input type="text" id="number3"> </p>
+<br>
+<p> Number4: </p><input type="text" id="number4"> </p>
+<br>
+<p> Number5: </p><input type="text" id="number5"> </p>
+<br>
+<p> Number6: </p><input type="text" id="number6"> </p>
+<br>
+<p> Number7: </p><input type="text" id="number7"> </p>
+<br>
+<p> Number8: </p><input type="text" id="number8"> </p>
+<br>
+<p> Divided by: </p><input type="text" id="divideb=By"> </p>
+<br>
+<button id="check">Check</button> 
+</form>	
+
+
+<script>
+var input = document.getElementById("input");
+var button = document.getElementById("button").clicked;
+	if(button==true){
+		if(input == null){
+		   alert("Input could not be blank.");
+		   }
+		elseif(isNaN(input)){
+			alert("Input should be a number");
+			}else{
+			input = input * 2;
+			}		
+	}
+	</script>
+
+</body>
+</html>
